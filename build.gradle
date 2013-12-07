@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories{
+    mavenCentral()  
+}
+
+dependencies {
+     compile('aopalliance:aopalliance:1.0',
+            'commons-logging:commons-logging:1.1.1',
+            'org.springframework:spring-aop:3.2.0.RELEASE',
+            'org.springframework:spring-beans:3.2.0.RELEASE',
+            'org.springframework:spring-context:3.2.0.RELEASE',
+            'org.springframework:spring-core:3.2.0.RELEASE',
+            'org.springframework:spring-expression:3.2.0.RELEASE',
+            'org.springframework:spring-webmvc:3.2.0.RELEASE',
+            'org.springframework:spring-web:3.2.0.RELEASE')
+}
+
